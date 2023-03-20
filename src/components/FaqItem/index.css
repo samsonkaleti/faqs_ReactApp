@@ -1,0 +1,35 @@
+/* Write your code here. */
+
+.listItemContainer {
+  list-style-type: none;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d7dae6;
+  margin-bottom: 15px;
+  align-items: center;
+  padding: 10px;
+  min-width: 100%;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.img {
+  height: 32px;
+  width: 32px;
+}
+
+.questions {
+  font-size: 25px;
+  font-family: 'roboto';
+}
